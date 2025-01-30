@@ -34,8 +34,8 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
 - **Authentification**: Vous pouvez spécifier des utilisateurs/mot de passe pour la connexion :
 
-  - En mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
-
+  - En mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne (directement dans l'écran de configuration du plugin), chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
+    Note : En cas d'ajout d'un couple d'identifiant, il faudra utiliser le bouton "Réinstaller" pour qu'il soit pris en compte.
   - En mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom` et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
 
   >**IMPORTANT**
